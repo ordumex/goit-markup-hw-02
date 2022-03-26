@@ -1,0 +1,186 @@
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color: #212121;
+}
+
+/* ШАПКА */
+
+/* Логотип */
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: inherit;
+}
+
+.logo:hover,
+.logo:focus {
+    color: #2196F3;
+}
+
+/* Навігація */
+.navbar-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.navbar-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.navbar-link:hover, 
+.navbar-link:focus {    
+    color: #2196F3;
+}
+
+/* Контакти */
+.contacts-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.contacts-link {
+    color: #757575;
+    text-decoration: none;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #2196F3;
+}
+
+/* ОСНОВНИЙ КОНТЕНТ */
+
+/* Тимчасовий вміст контейнера   */
+
+.temporary-container {
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background-color: #2F303A;
+}
+
+/* Головний заголовок */
+
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* Головна кнопка */
+
+.main-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* Особливості */
+
+.peculiarity-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.peculiarity-text {
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    color: #757575; 
+}
+
+/* Заголовки Послуги та команда*/
+
+.services-title, 
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+/* Команда */
+
+.profile-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.profile-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #757575;  
+}
+
+/* ПІДВАЛ */
+
+/* Тимчасовий вміст контейнера  */
+
+.temporary-vault {
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background-color: #2F303A;
+}
+
+/* Адреса */
+
+.address-list {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.google-link {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.mail-link,
+.tel-link {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    text-decoration: none;
+}
+
+.google-link:hover,
+.mail-link:hover,
+.tel-link:hover {
+    color: #2196F3;
+}
+    
+
