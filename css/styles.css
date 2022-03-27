@@ -13,6 +13,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: inherit;
+    text-decoration: none;
 }
 
 .logo:hover,
@@ -57,17 +58,7 @@ body {
     color: #2196F3;
 }
 
-/* ОСНОВНИЙ КОНТЕНТ */
-
-/* Тимчасовий вміст контейнера   */
-
-.temporary-container {
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
-    background-color: #2F303A;
-}
+/* ОСНОВНИЙ КОНТЕНТ "СТУДИЯ" */
 
 /* Головний заголовок */
 
@@ -90,8 +81,14 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: inherit;
     cursor: pointer;
+}
+
+.main-button:hover,
+.main-button:focus {
+    background-color: #2196F3;
+    color: #fff;
 }
 
 /* Особливості */
@@ -138,17 +135,56 @@ body {
     color: #757575;  
 }
 
-/* ПІДВАЛ */
+/* ОСНОВНИЙ КОНТЕНТ "ПОРТФОЛИО" */
 
-/* Тимчасовий вміст контейнера  */
+/* Карточки */
 
-.temporary-vault {
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2097px;
-    background-color: #2F303A;
+.filter-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: inherit;
+    cursor: pointer;
 }
+
+.filter-item:hover,
+.filter-item:focus {
+    background-color: #2196F3;
+    color: #FFF;
+}
+
+.card-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.card-title:hover,
+.card-title:focus {
+    color: #2196F3;
+}
+
+.card-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.card-description:hover,
+.card-description:focus {
+    color: #2196F3;
+}
+
+/* ПІДВАЛ */
 
 /* Адреса */
 
@@ -156,22 +192,17 @@ body {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+    /* list-style: none */
 }
 
 .google-link {
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: inherit;
     font-style: normal;
     text-decoration: none;
 }
 
 .mail-link,
 .tel-link {
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     text-decoration: none;
@@ -183,4 +214,9 @@ body {
     color: #2196F3;
 }
     
+.google-link:focus,
+.mail-link:focus,
+.tel-link:focus {
+    color: #2196F3;
+}
 
