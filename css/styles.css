@@ -168,22 +168,12 @@ body {
     letter-spacing: 0.06em;
 }
 
-.card-title:hover,
-.card-title:focus {
-    color: #2196F3;
-}
-
 .card-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
     color: #757575;
-}
-
-.card-description:hover,
-.card-description:focus {
-    color: #2196F3;
 }
 
 /* ПІДВАЛ */
