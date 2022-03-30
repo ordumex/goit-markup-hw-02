@@ -12,7 +12,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 /* ШАПКА */
@@ -91,6 +91,7 @@ body {
 /* Головна кнопка */
 
 .main-button {
+    font-family: inherit;
     font-weight: var(--primary-font-weight);
     font-size: var(--secondary-font-size);
     line-height: 1.9;
@@ -160,6 +161,7 @@ body {
 /* Карточки */
 
 .filter-item {
+    font-family: inherit;
     font-weight: var(--secondary-font-weight);
     font-size: var(--secondary-font-size);
     line-height: 1.6;
